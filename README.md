@@ -1,8 +1,8 @@
 # Chess
-This is by Kevin Zhang's CS 242 Assignment 1. It's fun I swear :)
+This is a chess game in Java I made for CS 242 Assignment 1. It's fun I swear :)
 
 ### Install
-You can download source code from GitLab (providing that you have access to this repo)
+You can download source code here or use the link below to download from GitLab (You will need a UIUC NetID and access to repo to use the linnk)
   - [zip]
   - [tar.gz]
   - [tar.bz2]
@@ -17,6 +17,10 @@ chessGame.Game
 ```
 
 Then you may run the code and play the game!
+
+### How to play?
+
+You could refer to the test guide at /test/testplan.pdf in which outlined more details of this game.
 
 ### Questions?
 You may [email] me at shukaiz2@illinois.edu or find me at Monday 8 am's code review section.
