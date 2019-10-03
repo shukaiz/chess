@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['clear_3',['clear',['../classhsa__ufa_1_1_console.html#a8e984442e8059d184636dc9e8c451cf9',1,'hsa_ufa::Console']]],
+  ['clearrect_4',['clearRect',['../classhsa__ufa_1_1_console.html#ae2921cbbdff11eea4363548c5980b61b',1,'hsa_ufa::Console']]],
+  ['close_5',['close',['../classhsa__ufa_1_1_console.html#abb53e140d22ca2735c510fba3bc0a668',1,'hsa_ufa.Console.close()'],['../classhsa__ufa_1_1_text_input_file.html#ae2262de8c27ca994bf32288d5fc3588b',1,'hsa_ufa.TextInputFile.close()'],['../classhsa__ufa_1_1_text_output_file.html#acc3975dc89fe14164203dbf198d7739e',1,'hsa_ufa.TextOutputFile.close()']]],
+  ['closed_6',['closed',['../classhsa__ufa_1_1_text_input_file.html#a4e876dcd35040d1c03cef3d4cb3ea838',1,'hsa_ufa.TextInputFile.closed()'],['../classhsa__ufa_1_1_text_output_file.html#ae4575f43fec4f3ac53ce9fb16a927c53',1,'hsa_ufa.TextOutputFile.closed()']]],
+  ['console_7',['Console',['../classhsa__ufa_1_1_console.html',1,'hsa_ufa.Console'],['../classhsa__ufa_1_1_console.html#ab9a46efbeb42a677de1cf517aed64331',1,'hsa_ufa.Console.Console()'],['../classhsa__ufa_1_1_console.html#a5edc97fa54e2e9112e747aa05fc8be3e',1,'hsa_ufa.Console.Console(int fontSize)'],['../classhsa__ufa_1_1_console.html#ae118141ee41962ca30f4d221cfc974b5',1,'hsa_ufa.Console.Console(String name)'],['../classhsa__ufa_1_1_console.html#a14e41887482c285470c162cd95a58fff',1,'hsa_ufa.Console.Console(int width, int height)'],['../classhsa__ufa_1_1_console.html#a87a84cd92fba90e39a93a51131417540',1,'hsa_ufa.Console.Console(int width, int height, int fontSize)'],['../classhsa__ufa_1_1_console.html#ad99cfbe3545e4ebb8fce0a27fb6f487d',1,'hsa_ufa.Console.Console(int width, int height, String name)'],['../classhsa__ufa_1_1_console.html#adca97cc4e93cf5d6a6d213c209ea8bb9',1,'hsa_ufa.Console.Console(int width, int height, int fontSize, String name)']]],
+  ['consolecanvas_8',['ConsoleCanvas',['../classhsa__ufa_1_1_console_canvas.html',1,'hsa_ufa']]],
+  ['copyarea_9',['copyArea',['../classhsa__ufa_1_1_console.html#a57be91c31355e4e8dd335e9a21880231',1,'hsa_ufa::Console']]]
+];
