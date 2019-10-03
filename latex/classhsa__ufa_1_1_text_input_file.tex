@@ -1,0 +1,337 @@
+\hypertarget{classhsa__ufa_1_1_text_input_file}{}\doxysection{hsa\+\_\+ufa.\+Text\+Input\+File Class Reference}
+\label{classhsa__ufa_1_1_text_input_file}\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_afcd38d8e82a43a00aee369b9cb492099}{Text\+Input\+File}} ()
+\item 
+\mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a4b54ab200de55fab4c9d3bcdb39fd6d5}{Text\+Input\+File}} (File file)
+\item 
+\mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a6413cebdc2ec6227d1a9738021ad013e}{Text\+Input\+File}} (String \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_aa4eb6e009b34eeeab28db49d0f75091b}{file\+Name}})
+\item 
+void \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ae2262de8c27ca994bf32288d5fc3588b}{close}} ()
+\item 
+boolean \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_af6749bce15ab69111c4cd36020c570f9}{eof}} ()
+\item 
+boolean \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a89112550e0ed02ef3c21970106fa6ae1}{read\+Boolean}} ()
+\item 
+byte \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ac5cf87125dfc2c2fac59bb117ad54c00}{read\+Byte}} ()
+\item 
+char \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_abc29d23bf0b9e17cabd557fef1b92696}{read\+Char}} ()
+\item 
+double \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_aaf289005842b9852ed0c71b302b26e94}{read\+Double}} ()
+\item 
+float \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a482d6caf1cffc03d0757f472a82c806e}{read\+Float}} ()
+\item 
+int \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ad948439895a2d7ede0b4ff2d3c8e1f50}{read\+Int}} ()
+\item 
+String \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a594b460fad3c1e7bd7f9d4c11c362895}{read\+Line}} ()
+\item 
+long \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a163df2647424e7d2cd8e95c4f8b5e497}{read\+Long}} ()
+\item 
+short \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a55ed915e0ee5d58b36c4ffc4e792fbea}{read\+Short}} ()
+\item 
+String \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ac91ff8fd5d1deed1a362308e07465b79}{read\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a2c54d5f2139c7c6a9debe765fb4fe320}{push\+A\+Character}} (char ch)
+\item 
+char \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_aab73e438b48d513f4a4b7d8dc0ae7f31}{read\+A\+Character}} ()
+\item 
+char \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a7a7822efd8dee7fd9695fdf879bd370b}{read\+A\+Character\+Throws\+E\+OF}} ()  throws E\+O\+F\+Exception     
+\item 
+void \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ab1642527369db93e47f5a5611c98dbd6}{read\+A\+Line\+From\+File}} ()  throws E\+O\+F\+Exception     
+\item 
+String \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_ad5a6d641e9de49d5dc5bc0d5e2c798d3}{read\+A\+Token}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_aa4eb6e009b34eeeab28db49d0f75091b}{file\+Name}}
+\item 
+Buffered\+Reader \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a792bb9941cde097a178345586043ecf2}{f}} = null
+\item 
+boolean \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a4e876dcd35040d1c03cef3d4cb3ea838}{closed}} = false
+\item 
+boolean \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a070ea0f447b6370f6e80251b527a22cc}{use\+Standard\+IO}} = false
+\item 
+boolean \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a9ef9ac51dde2a6abceeed5d43e230545}{eof\+Flag}} = false
+\item 
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ae201b40146bada714004bf7b3ff50752}\label{classhsa__ufa_1_1_text_input_file_ae201b40146bada714004bf7b3ff50752}} 
+String {\bfseries line\+Buffer} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file_a5f38f7d043f121134c59f98795b046b3}{E\+M\+P\+TY}} = -\/1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_afcd38d8e82a43a00aee369b9cb492099}\label{classhsa__ufa_1_1_text_input_file_afcd38d8e82a43a00aee369b9cb492099}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!TextInputFile@{TextInputFile}}
+\index{TextInputFile@{TextInputFile}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{TextInputFile()}{TextInputFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily hsa\+\_\+ufa.\+Text\+Input\+File.\+Text\+Input\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Contructor -\/ \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file}{Text\+Input\+File}} to read from standard input. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a4b54ab200de55fab4c9d3bcdb39fd6d5}\label{classhsa__ufa_1_1_text_input_file_a4b54ab200de55fab4c9d3bcdb39fd6d5}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!TextInputFile@{TextInputFile}}
+\index{TextInputFile@{TextInputFile}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{TextInputFile()}{TextInputFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily hsa\+\_\+ufa.\+Text\+Input\+File.\+Text\+Input\+File (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Contructor -\/ \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file}{Text\+Input\+File}} to read from a File.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & -\/ File to be opened. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a6413cebdc2ec6227d1a9738021ad013e}\label{classhsa__ufa_1_1_text_input_file_a6413cebdc2ec6227d1a9738021ad013e}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!TextInputFile@{TextInputFile}}
+\index{TextInputFile@{TextInputFile}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{TextInputFile()}{TextInputFile()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily hsa\+\_\+ufa.\+Text\+Input\+File.\+Text\+Input\+File (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Contructor -\/ \mbox{\hyperlink{classhsa__ufa_1_1_text_input_file}{Text\+Input\+File}} to read from file with specified name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & -\/ Name of the file to be opened. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ae2262de8c27ca994bf32288d5fc3588b}\label{classhsa__ufa_1_1_text_input_file_ae2262de8c27ca994bf32288d5fc3588b}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!close@{close}}
+\index{close@{close}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void hsa\+\_\+ufa.\+Text\+Input\+File.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Close the file to further reading. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_af6749bce15ab69111c4cd36020c570f9}\label{classhsa__ufa_1_1_text_input_file_af6749bce15ab69111c4cd36020c570f9}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!eof@{eof}}
+\index{eof@{eof}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{eof()}{eof()}}
+{\footnotesize\ttfamily boolean hsa\+\_\+ufa.\+Text\+Input\+File.\+eof (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return whether there is an eof before the next token.
+
+\begin{DoxyReturn}{Returns}
+Whether there is an eof before the next token 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a2c54d5f2139c7c6a9debe765fb4fe320}\label{classhsa__ufa_1_1_text_input_file_a2c54d5f2139c7c6a9debe765fb4fe320}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!pushACharacter@{pushACharacter}}
+\index{pushACharacter@{pushACharacter}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{pushACharacter()}{pushACharacter()}}
+{\footnotesize\ttfamily void hsa\+\_\+ufa.\+Text\+Input\+File.\+push\+A\+Character (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Place the character in the unread position. The next time a character is read, this one will be returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & -\/ The character to be pushed into the unread position. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_aab73e438b48d513f4a4b7d8dc0ae7f31}\label{classhsa__ufa_1_1_text_input_file_aab73e438b48d513f4a4b7d8dc0ae7f31}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readACharacter@{readACharacter}}
+\index{readACharacter@{readACharacter}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readACharacter()}{readACharacter()}}
+{\footnotesize\ttfamily char hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+A\+Character (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Read a single character from the file. If we reach E\+OF before reading the character, display an error message and exit.
+
+\begin{DoxyReturn}{Returns}
+The character read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a7a7822efd8dee7fd9695fdf879bd370b}\label{classhsa__ufa_1_1_text_input_file_a7a7822efd8dee7fd9695fdf879bd370b}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readACharacterThrowsEOF@{readACharacterThrowsEOF}}
+\index{readACharacterThrowsEOF@{readACharacterThrowsEOF}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readACharacterThrowsEOF()}{readACharacterThrowsEOF()}}
+{\footnotesize\ttfamily char hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+A\+Character\+Throws\+E\+OF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws E\+O\+F\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Read a single character from the file.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em E\+O\+F\+Exception} & -\/ Thrown if attempt to read past E\+OF. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+The character read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ab1642527369db93e47f5a5611c98dbd6}\label{classhsa__ufa_1_1_text_input_file_ab1642527369db93e47f5a5611c98dbd6}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readALineFromFile@{readALineFromFile}}
+\index{readALineFromFile@{readALineFromFile}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readALineFromFile()}{readALineFromFile()}}
+{\footnotesize\ttfamily void hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+A\+Line\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws E\+O\+F\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Reads a line from the file.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em E\+O\+F\+Exception} & -\/ Thrown if attempt to read past E\+OF. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ad5a6d641e9de49d5dc5bc0d5e2c798d3}\label{classhsa__ufa_1_1_text_input_file_ad5a6d641e9de49d5dc5bc0d5e2c798d3}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readAToken@{readAToken}}
+\index{readAToken@{readAToken}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readAToken()}{readAToken()}}
+{\footnotesize\ttfamily String hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+A\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Reads in input from the keyboard buffer until it hits a whitespace, which indicates the end of a token. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a89112550e0ed02ef3c21970106fa6ae1}\label{classhsa__ufa_1_1_text_input_file_a89112550e0ed02ef3c21970106fa6ae1}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readBoolean@{readBoolean}}
+\index{readBoolean@{readBoolean}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readBoolean()}{readBoolean()}}
+{\footnotesize\ttfamily boolean hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Boolean (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a boolean from the file. The actual text in the file must be either \char`\"{}true\char`\"{} or \char`\"{}false\char`\"{} although case is irrelvant.
+
+\begin{DoxyReturn}{Returns}
+The boolean value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ac5cf87125dfc2c2fac59bb117ad54c00}\label{classhsa__ufa_1_1_text_input_file_ac5cf87125dfc2c2fac59bb117ad54c00}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readByte@{readByte}}
+\index{readByte@{readByte}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readByte()}{readByte()}}
+{\footnotesize\ttfamily byte hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Byte (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read an 8-\/bit integer (a \char`\"{}byte\char`\"{}) from the file. The actual text in the file must be a number from -\/128 to 127.
+
+\begin{DoxyReturn}{Returns}
+The byte value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_abc29d23bf0b9e17cabd557fef1b92696}\label{classhsa__ufa_1_1_text_input_file_abc29d23bf0b9e17cabd557fef1b92696}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readChar@{readChar}}
+\index{readChar@{readChar}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readChar()}{readChar()}}
+{\footnotesize\ttfamily char hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Char (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a single character from the file. Note that this discards any whitespace. If you want to get every character on the line, use the read\+Line () method.
+
+\begin{DoxyReturn}{Returns}
+The character read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_aaf289005842b9852ed0c71b302b26e94}\label{classhsa__ufa_1_1_text_input_file_aaf289005842b9852ed0c71b302b26e94}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readDouble@{readDouble}}
+\index{readDouble@{readDouble}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readDouble()}{readDouble()}}
+{\footnotesize\ttfamily double hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Double (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a double precision floating point number (a \char`\"{}double\char`\"{}) from the file.
+
+\begin{DoxyReturn}{Returns}
+The double value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a482d6caf1cffc03d0757f472a82c806e}\label{classhsa__ufa_1_1_text_input_file_a482d6caf1cffc03d0757f472a82c806e}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readFloat@{readFloat}}
+\index{readFloat@{readFloat}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readFloat()}{readFloat()}}
+{\footnotesize\ttfamily float hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Float (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a floating point number (a \char`\"{}float\char`\"{}) from the file.
+
+\begin{DoxyReturn}{Returns}
+The float value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ad948439895a2d7ede0b4ff2d3c8e1f50}\label{classhsa__ufa_1_1_text_input_file_ad948439895a2d7ede0b4ff2d3c8e1f50}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readInt@{readInt}}
+\index{readInt@{readInt}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readInt()}{readInt()}}
+{\footnotesize\ttfamily int hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a 32-\/bit integer (an \char`\"{}int\char`\"{}) from the file. The actual text in the file must be a number from -\/2147483648 to 2147483647.
+
+\begin{DoxyReturn}{Returns}
+The int value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a594b460fad3c1e7bd7f9d4c11c362895}\label{classhsa__ufa_1_1_text_input_file_a594b460fad3c1e7bd7f9d4c11c362895}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readLine@{readLine}}
+\index{readLine@{readLine}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readLine()}{readLine()}}
+{\footnotesize\ttfamily String hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a full line of text from the file.
+
+\begin{DoxyReturn}{Returns}
+The line of text read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a163df2647424e7d2cd8e95c4f8b5e497}\label{classhsa__ufa_1_1_text_input_file_a163df2647424e7d2cd8e95c4f8b5e497}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readLong@{readLong}}
+\index{readLong@{readLong}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readLong()}{readLong()}}
+{\footnotesize\ttfamily long hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Long (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a 64-\/bit integer (a \char`\"{}long\char`\"{}) from the file.
+
+\begin{DoxyReturn}{Returns}
+The long value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a55ed915e0ee5d58b36c4ffc4e792fbea}\label{classhsa__ufa_1_1_text_input_file_a55ed915e0ee5d58b36c4ffc4e792fbea}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readShort@{readShort}}
+\index{readShort@{readShort}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readShort()}{readShort()}}
+{\footnotesize\ttfamily short hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+Short (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a 16-\/bit integer (a \char`\"{}short\char`\"{}) from the file. The actual text in the file must be a number from -\/32768 to 32767.
+
+\begin{DoxyReturn}{Returns}
+The short value read from the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_ac91ff8fd5d1deed1a362308e07465b79}\label{classhsa__ufa_1_1_text_input_file_ac91ff8fd5d1deed1a362308e07465b79}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!readString@{readString}}
+\index{readString@{readString}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{readString()}{readString()}}
+{\footnotesize\ttfamily String hsa\+\_\+ufa.\+Text\+Input\+File.\+read\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Read a whitespace delimited token from the file.
+
+\begin{DoxyReturn}{Returns}
+The token read from the file. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a4e876dcd35040d1c03cef3d4cb3ea838}\label{classhsa__ufa_1_1_text_input_file_a4e876dcd35040d1c03cef3d4cb3ea838}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!closed@{closed}}
+\index{closed@{closed}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{closed}{closed}}
+{\footnotesize\ttfamily boolean hsa\+\_\+ufa.\+Text\+Input\+File.\+closed = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+Set if the file has been closed. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a5f38f7d043f121134c59f98795b046b3}\label{classhsa__ufa_1_1_text_input_file_a5f38f7d043f121134c59f98795b046b3}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!EMPTY@{EMPTY}}
+\index{EMPTY@{EMPTY}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{EMPTY}{EMPTY}}
+{\footnotesize\ttfamily final int hsa\+\_\+ufa.\+Text\+Input\+File.\+E\+M\+P\+TY = -\/1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Constants and variables used by the input line buffer. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a9ef9ac51dde2a6abceeed5d43e230545}\label{classhsa__ufa_1_1_text_input_file_a9ef9ac51dde2a6abceeed5d43e230545}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!eofFlag@{eofFlag}}
+\index{eofFlag@{eofFlag}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{eofFlag}{eofFlag}}
+{\footnotesize\ttfamily boolean hsa\+\_\+ufa.\+Text\+Input\+File.\+eof\+Flag = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+The end-\/of-\/file flag \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a792bb9941cde097a178345586043ecf2}\label{classhsa__ufa_1_1_text_input_file_a792bb9941cde097a178345586043ecf2}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!f@{f}}
+\index{f@{f}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{f}{f}}
+{\footnotesize\ttfamily Buffered\+Reader hsa\+\_\+ufa.\+Text\+Input\+File.\+f = null\hspace{0.3cm}{\ttfamily [protected]}}
+
+Stream used for reading input. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_aa4eb6e009b34eeeab28db49d0f75091b}\label{classhsa__ufa_1_1_text_input_file_aa4eb6e009b34eeeab28db49d0f75091b}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!fileName@{fileName}}
+\index{fileName@{fileName}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{fileName}{fileName}}
+{\footnotesize\ttfamily String hsa\+\_\+ufa.\+Text\+Input\+File.\+file\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+The file name. \mbox{\Hypertarget{classhsa__ufa_1_1_text_input_file_a070ea0f447b6370f6e80251b527a22cc}\label{classhsa__ufa_1_1_text_input_file_a070ea0f447b6370f6e80251b527a22cc}} 
+\index{hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}!useStandardIO@{useStandardIO}}
+\index{useStandardIO@{useStandardIO}!hsa\_ufa.TextInputFile@{hsa\_ufa.TextInputFile}}
+\doxysubsubsection{\texorpdfstring{useStandardIO}{useStandardIO}}
+{\footnotesize\ttfamily boolean hsa\+\_\+ufa.\+Text\+Input\+File.\+use\+Standard\+IO = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+Indicator whether to write to standard output or a file. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/hsa\+\_\+ufa/Text\+Input\+File.\+java\end{DoxyCompactItemize}
